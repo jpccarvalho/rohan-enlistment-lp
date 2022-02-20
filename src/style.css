@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Signika+Negative&display=swap');
 :root{
     --golden : #d5b662;
+    --white : #ecd6c4;
 }
 
 *{
@@ -11,7 +13,8 @@
 
 body{
     font-size: 100%;
-    background: linear-gradient(68.15deg,#011301 16.62%, #0c6141 85%);
+    background: linear-gradient(68.15deg,#011301 16.62%, #476f32 85%);
+    font-family: 'Akaya Telivigala', cursive;
 }
 
 .cabecalho{
@@ -41,7 +44,7 @@ body{
 }
 
 .conteudo {
-    padding-top: 48px;
+    padding: 48px;
     border-top: 0.4px solid var(--golden);
     margin-bottom: 48px;
 }
@@ -63,16 +66,17 @@ body{
     font-weight: 400;
     font-size: 64px;
     color: var(--golden);
+    font-family: 'Signika Negative', sans-serif;
 }
 
 .conteudo-escrito-subtitulo {
     font-weight: 400;
     font-size: 32px;
-    color: #ecd6c4;
+    color: var(--white);
 }
 
 .conteudo-escrito-texto{
-    color: #ecd6c4;
+    color: var(--white);
     flex-wrap: wrap;
     font-weight: 400;
     font-size: 18px;
@@ -103,5 +107,5 @@ body{
 .conteudo-sec-paragrafo{
     font-weight: 300;
     font-size: 18px;
-    color: #ecd6c4;
+    color: var(--white);
 }
